@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+/* -------- Navbar ---------- */
+.navbar{
+    padding: 0 !important;
+    background-color: #fff;
+}
+.my-nav{
+    box-shadow: 2px 2px 5px rgb(146, 141, 141);
+}
+.my-nav a{
+    text-decoration: none;
+    color: #000;
+}
+.my-nav-item {
+    float: right;
+    text-align: center;
+    font-size: large;
+}
+.my-nav-item li{
+    padding: 18px;
+}
+.my-nav-item li:hover{
+    background-color: #ccc;
+}
+
+/* -------- Home ---------- */
+.bgimg-1{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/bg.jpeg);
+    height: 800px;
+}
+.shadow{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 800px;
+}
+.img-content{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translate(0%, -50%);
+    padding: 50px;
+}
+.img-title{
+    color: #fff;
+    font-size: 84px;
+    margin-bottom: 50px;
+}
+.img-text{
+    padding: 10px;
+    color: #fff;
+}
+.img-btn{
+    background-color: rgba(187, 187, 187, 0.6);
+    border-radius: 0;
+    font-size: 23px;
+    padding: 15px 25px;
+    margin-top: 40px;
+}
+.img-btn:hover{
+    background-color: rgba(187, 187, 187, 0.8);
+}
+
+/* -------- About ---------- */
+.about-us{
+    margin: 100px 0;
+    padding: 100px 30px;
+    text-align: center;
+}
+.about-title h4{
+    margin-top: 40px;
+}
+.about-content{
+    margin: 100px 10px;
+}
+.about-content-p{
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 19px;
+}
+
+
+/* -------- About ---------- */
+.we-know{
+    background-color: rgb(238, 238, 238);
+    height: 1000px;
+    padding: 190px 50px;
+}
+.works-btn{
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 20px;
+    border-radius: 0;
+}
+.works-btn:hover{
+    color: #000;
+    background-color: rgba(175, 175, 175, 0.8);
+}
+.we-know-img img{
+    width: 100%;
+    border-radius: 15px;
+}
