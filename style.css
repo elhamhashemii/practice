@@ -293,3 +293,40 @@ body{
     background-color: rgb(199, 199, 199);
     color: #000;
 }
+
+/*  MAP  */
+.final-img{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.final-img img{
+    width: 100%;
+    filter: grayscale(0.75);
+}
+ 
+/*  FOOTER  */
+.footer{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.scroll-btn,
+.scroll-btn:hover{
+    background-color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 20px
+}
+.scroll-btn:hover{
+    background-color: rgb(199, 199, 199);
+}
+.final-text{
+    margin: 30px;
+    color: #fff;
+}
